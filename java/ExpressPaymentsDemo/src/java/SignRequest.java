@@ -72,7 +72,7 @@ public class SignRequest {
 
         /* Add http:// or https:// before your Return URL
          *The webpage of your site where your customer should be redirected to after the order is successful
-         *In this example you can link it to the success.java to see the GET parameters*/
+         *In this example you can link it to the success.jsp to see the GET parameters*/
         String returnURL = "http://localhost:8080/ExpressPaymentsDemo/Success.jsp";
 
         // Optional fields
