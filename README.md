@@ -30,6 +30,6 @@ The currency to use to charge the buyer (eg - 'USD'). This defaults to currency 
 
 #Endpoint URL
 #####1.Sandbox Endpoint
-https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js
+`https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js`
 ##### 2. Production Endpoint
-https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js 
+`https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js` 
