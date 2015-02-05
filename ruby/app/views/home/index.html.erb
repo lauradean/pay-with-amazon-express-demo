@@ -21,8 +21,8 @@ OffAmazonPayments.Button("AmazonPayButton", "<%= Rails.application.secrets.selle
   hostedParametersProvider: function(done) {
 
     $.getJSON('/home/signature', {
-      payment_amount: parseInt($("#amount").attr("value")) * parseInt($("#QuantitySelect option:selected" ).val()),
-      payment_currency: 'USD',
+      amount: parseInt($("#amount").attr("value")) * parseInt($("#QuantitySelect option:selected" ).val()),
+      currency_code: 'USD',
       seller_note:'Testing Dynamic Express Amazon Payments'
 
     }, function(data) {
