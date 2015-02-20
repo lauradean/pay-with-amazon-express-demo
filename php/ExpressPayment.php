@@ -39,7 +39,7 @@ $_SESSION["token"] = md5(uniqid(mt_rand(), true));
 
             hostedParametersProvider: function(done) {
 
-                $.getJSON("Signature_express.php", {
+                $.getJSON("ExpressSignature.php", {
                     amount: parseInt($("#amount").attr("value")) * parseInt($("#QuantitySelect option:selected").val()),
                     currencyCode: 'USD',
                     sellerNote: $("#itemname").text() + ' QTY: ' + $("#QuantitySelect option:selected").val(),
